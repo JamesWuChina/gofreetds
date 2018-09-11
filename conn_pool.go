@@ -27,6 +27,7 @@ var poolCleanupInterval = time.Minute
 //  conn.Close()
 //  ...
 //  pool.Close()
+//wwww
 type ConnPool struct {
 	connStr       string
 	maxConn       int
