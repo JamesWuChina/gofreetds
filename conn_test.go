@@ -193,7 +193,7 @@ func TestRowsAffected(t *testing.T) {
 		return
 	}
 	defer conn.Close()
-
+	// test
 	rst, err := conn.Exec("select * from authors")
 	assert.Nil(t, err)
 	assert.NotNil(t, rst)
